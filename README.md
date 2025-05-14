@@ -22,3 +22,5 @@ The following R packages are required:
 ```r
 install.packages(c("xml2", "dplyr", "purrr", "progress"))
 
+NB: The repository also includes the official DrugBank XML Schema Definition file (drugbank.xsd) for reference. While it is not used directly in the script, it was helpful for understanding the structure and guiding XPath queries during development.
+
